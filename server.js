@@ -3,6 +3,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const fetch = require('node-fetch');
+// import fetch from 'node-fetch';
+
 
 const categoryRoutes = require('./routes/categoryRoutes');
 const productRoutes = require('./routes/productRoutes');
